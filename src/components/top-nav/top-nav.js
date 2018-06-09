@@ -6,11 +6,11 @@ export function TopNav(props) {
       <a className="app-nav-logo"> This will be the logo :) </a>
       <nav className="app-nav">
         <ul>
-          <li className="app-nav-item"></li>
-          <li className="app-nav-item"></li>
-          <li className="app-nav-item"></li>
-          <li className="app-nav-item"></li>
-          <li className="app-nav-item"></li>
+          <li className="app-nav-item">stuff</li>
+          <li className="app-nav-item">stuff</li>
+          <li className="app-nav-item">stuff</li>
+          <li className="app-nav-item">stuff</li>
+          <li className="app-nav-item">stuff</li>
         </ul>
       </nav>
     </header>
