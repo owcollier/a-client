@@ -2,7 +2,7 @@ import React from 'react';
 
 export function TopNav(props) {
   return (
-    <div>
+    <header className="app-header">
       <a className="app-nav-logo"> This will be the logo :) </a>
       <nav className="app-nav">
         <ul>
@@ -13,7 +13,7 @@ export function TopNav(props) {
           <li className="app-nav-item"></li>
         </ul>
       </nav>
-    </div>
+    </header>
   )
 }
 
