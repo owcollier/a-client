@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import './App.css';
 
+import TopNav from '../top-nav/top-nav';
+
 class App extends Component {
   render() {
     return (
