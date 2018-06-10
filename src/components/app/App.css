@@ -21,6 +21,14 @@ ul {
   padding: 0;
 }
 
+/* layout */
+
+.single-column-layout {
+  display: block;
+  margin: 0 auto;
+  max-width: 660px;
+}
+
 /* top nav styles*/
 
 .app-header {
