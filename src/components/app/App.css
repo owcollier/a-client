@@ -36,6 +36,12 @@ ul {
   max-width: 660px;
 }
 
+.single-column-layout::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 /* top nav styles*/
 
 .app-header {
@@ -64,6 +70,19 @@ ul {
 .app-nav-item {
   display: inline-block;
   margin-right: 1.5rem;
+}
+
+.app-nav-link {
+  
+}
+
+.app-nav-contact-me {
+  background: #fff;
+  color: #ed3e44;
+
+  border-radius: 2px;
+  font-weight: 500;
+  padding: 15px;
 }
 
 /* hero styles */

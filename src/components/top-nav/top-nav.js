@@ -10,7 +10,9 @@ export function TopNav(props) {
           <li className="app-nav-item">stuff</li>
           <li className="app-nav-item">stuff</li>
           <li className="app-nav-item">stuff</li>
-          <li className="app-nav-item">stuff</li>
+          <li className="app-nav-item">
+            <a className="app-nav-link app-nav-contact-me">Contact me</a>
+          </li>
         </ul>
       </nav>
     </header>
