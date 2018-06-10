@@ -15,6 +15,10 @@ body {
   min-width: 320px;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 h2 {
   font-family: europa, sans-serif;
   font-weight: 500;
@@ -22,14 +26,14 @@ h2 {
   margin: 0 0 0.75rem;
 }
 
-a {
+/* a {
   border-color: rgba(237,62,68,0.3);
   color: #ed3e44;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   text-decoration: none;
   transition: color 150ms ease-in-out, border-color 150ms ease-in-out;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -128,6 +132,13 @@ ul {
 .view-content-column::before {
   content: "←";
   padding-right: 0.75rem;
+}
+
+.title-section {
+  margin-top: 4.5rem;
+  margin-bottom: 1.5rem;
+  color: #ed3e44;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 1600px) {
