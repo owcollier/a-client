@@ -15,6 +15,10 @@ body {
   min-width: 320px;
 }
 
+p {
+  margin: 0 0 1.5rem;
+}
+
 h1 {
   font-family: europa, sans-serif;
   font-size: 3em;
