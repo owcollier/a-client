@@ -2,7 +2,7 @@
 
 body {
   color: #3d3e44;
-  font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: europa, sans-serif;
   -webkit-font-kerning: normal;
   font-kerning: normal;
   font-size: 0.8em;
@@ -16,7 +16,7 @@ body {
 }
 
 h2 {
-  font-family: "Calibre", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: europa, sans-serif;
   font-weight: 500;
   line-height: 1.25;
   margin: 0 0 0.75rem;
@@ -78,7 +78,7 @@ ul {
 }
 
 .hero-title {
-  font-size: 2.133em;
+  font-size: 2.5em;
   font-weight: 300;
 }
 
