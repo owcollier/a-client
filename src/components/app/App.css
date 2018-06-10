@@ -72,9 +72,9 @@ ul {
   margin-right: 1.5rem;
 }
 
-.app-nav-link {
-  
-}
+/* .app-nav-link {
+
+} */
 
 .app-nav-contact-me {
   background: #fff;
@@ -99,6 +99,17 @@ ul {
 .hero-title {
   font-size: 2.5em;
   font-weight: 300;
+}
+
+/* main content column styles */
+
+.single-column-layout#meat {
+  margin-bottom: 6rem;
+}
+
+.view-content-column::before {
+  content: "←";
+  padding-right: 0.75rem;
 }
 
 @media screen and (min-width: 1600px) {
