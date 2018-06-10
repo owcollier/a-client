@@ -72,6 +72,13 @@ ul {
 
 @media screen and (min-width: 1600px) {
 
+  /* layout */
+
+.single-column-layout {
+  max-width: 700px;
+  font-size: 1.2em;
+}
+
   /* top nav styles */
 
   .app-nav-item {
