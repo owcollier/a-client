@@ -1,5 +1,13 @@
 /* general element styles */
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #3d3e44;
   font-family: europa, sans-serif;
@@ -198,15 +206,21 @@ ul {
 
   /* layout */
 
-.single-column-layout {
-  max-width: 700px;
-  font-size: 1.2em;
-}
+  .single-column-layout {
+    max-width: 700px;
+    font-size: 1.2em;
+  }
 
   /* top nav styles */
 
   .app-nav-item {
     font-size: 1.2em;
+  }
+
+  /* content column styles */
+
+  .icon-item p {
+    font-size: 1em;
   }
 }
 
@@ -224,5 +238,21 @@ ul {
     display: block;
     margin-right: 2.3576520234%;
     width: 48.8211739883%;
+  }
+
+  .icon-item:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .icon-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .icon-item:nth-last-child(2) {
+    padding-bottom: 0;
+  }
+
+  .icon-item:last-child {
+    padding-bottom: 0;
   }
 }
