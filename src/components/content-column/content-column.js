@@ -38,7 +38,6 @@ export function ContentColumn(props) {
       </ul>
       <p></p>
       <p></p>
-
     </section>
   )
 }
