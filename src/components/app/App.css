@@ -154,6 +154,16 @@ ul {
   font-weight: 400;
 }
 
+.icon-list {
+  margin-top: 3rem;
+}
+
+.icon-item {
+  padding-bottom: 1.5rem;
+  padding-left: 2.625rem;
+  position: relative;
+}
+
 /* footer styles */
 
 .app-footer {
@@ -206,4 +216,13 @@ ul {
     padding: 4.5rem 6rem;
   }
 
+}
+
+@media screen and (min-width: 580px) {
+  .icon-item {
+    float: left;
+    display: block;
+    margin-right: 2.3576520234%;
+    width: 48.8211739883%;
+  }
 }
