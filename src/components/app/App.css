@@ -154,6 +154,26 @@ ul {
   font-weight: 400;
 }
 
+/* footer styles */
+
+.app-footer {
+  background: #29292c;
+  color: #b5b5c0;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 3rem;
+}
+
+.footer-nav-groups {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-nav-group {
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+}
+
 @media screen and (min-width: 1600px) {
 
   /* layout */
@@ -168,4 +188,12 @@ ul {
   .app-nav-item {
     font-size: 1.2em;
   }
+}
+
+@media screen and (min-width: 890px) {
+
+  .app-footer {
+    padding: 4.5rem 6rem;
+  }
+
 }
