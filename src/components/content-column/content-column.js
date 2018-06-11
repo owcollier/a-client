@@ -15,6 +15,28 @@ export function ContentColumn(props) {
       <h3>About me</h3>
       <p>Some stuff about me</p>
       <p>A concluding statement about me :)</p>
+      <div className="photo-grid"></div>
+      <h3>My Benefits</h3>
+      <p>A quick statement</p>
+      <ul>
+        <li>
+          <h3></h3>
+          <p></p>
+        </li>
+        <li>
+          <h3></h3>
+          <p></p>
+        </li>
+        <li>
+          <h3></h3>
+          <p></p>
+        </li>
+        <li>
+          <h3></h3>
+          <p></p>
+        </li>
+      </ul>
+
     </section>
   )
 }
