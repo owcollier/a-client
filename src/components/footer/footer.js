@@ -31,6 +31,10 @@ export function Footer(props) {
           </li>
         </ul>
       </div>
+      <div className="footer-bottom">
+        <strong>Created with React.js</strong>
+        <p>Thanks for taking a look :)</p>
+      </div>
     </footer>
   )
 }

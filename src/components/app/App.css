@@ -179,6 +179,11 @@ ul {
   font-size: 1.2rem;
 }
 
+.footer-bottom  {
+  color: #b5b5c0;
+  padding-top: 3rem;
+}
+
 @media screen and (min-width: 1600px) {
 
   /* layout */
