@@ -21,19 +21,19 @@ export function ContentColumn(props) {
       <p>A quick statement</p>
       <ul>
         <li>
-          <h3></h3>
+          <h3>An item</h3>
           <p></p>
         </li>
         <li>
-          <h3></h3>
+          <h3>Another item</h3>
           <p></p>
         </li>
         <li>
-          <h3></h3>
+          <h3>Another item</h3>
           <p></p>
         </li>
         <li>
-          <h3></h3>
+          <h3>Another item</h3>
           <p></p>
         </li>
       </ul>
