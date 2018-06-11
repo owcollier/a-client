@@ -95,14 +95,22 @@ ul {
 }
 
 .app-nav-logo {
-  display: block;
-  float: left;
-  margin-left: 3rem;
+  font-size: 1.8em;
+  font-weight: 700;
+
+  color: #fff;
+
+  border-bottom: 0;
+  line-height: 1;
+  transition: color 150ms ease-in-out;
 }
 
 .app-nav {
   float: right;
   margin-top: 0.35rem;
+
+  color: #fff;
+
 }
 
 .app-nav-item {
@@ -119,7 +127,7 @@ ul {
   color: #ed3e44;
 
   border-radius: 2px;
-  font-weight: 500;
+  font-weight: 700;
   padding: 15px;
 }
 
@@ -226,6 +234,12 @@ ul {
 
 @media screen and (min-width: 890px) {
 
+  .app-nav-logo {
+    display: block;
+    float: left;
+    margin-left: 3rem;
+  }
+
   .app-footer {
     padding: 4.5rem 6rem;
   }
@@ -255,4 +269,16 @@ ul {
   .icon-item:last-child {
     padding-bottom: 0;
   }
+}
+
+@media screen and (min-width: 480px) {
+
+  body {
+    font-size: 0.8rem;
+  }
+
+  .app-nav {
+    font-size: 0.9rem;
+  }
+
 }
