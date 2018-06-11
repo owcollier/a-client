@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TopNav from '../top-nav/top-nav';
 import Main from '../main/main';
+import Footer from '../footer/footer';
 import './app.css';
 
 
@@ -10,6 +11,7 @@ export class App extends Component {
       <div className="App">
         <TopNav />
         <Main />
+        <Footer />
       </div>
     );
   }
