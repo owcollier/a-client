@@ -36,6 +36,8 @@ export function ContentColumn(props) {
           <p></p>
         </li>
       </ul>
+      <p></p>
+      <p></p>
 
     </section>
   )
