@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoGrid from '../photo-grid/photo-grid';
 
 export function ContentColumn(props) {
   return (
@@ -15,7 +16,7 @@ export function ContentColumn(props) {
       <h3>About me</h3>
       <p>Some stuff about me</p>
       <p>A concluding statement about me :)</p>
-      <div className="photo-grid"></div>
+      <PhotoGrid />
       <h3>My Benefits</h3>
       <p>A quick statement</p>
       <ul>
