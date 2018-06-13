@@ -5,16 +5,16 @@ export function ContentColumn(props) {
   return (
     <section className="single-column-layout" id="meat">
       <p className="view-content-column">
-       <a>Back to reality</a>
+       <a>Check out my portfolio</a>
       </p>
       <h1 className="title-section">Full Stack Web Developer in New York</h1>
       <div className="content-show-description">
-        <p>I'm looking to join a high quality team of designers and developers to apply my skills, continue growing as a developer, and start working with clients to provide . As a recent graduate of Thinkful's full time Engineering Immersion program, I have acquired working experience building front end web clients with JavaScript, HTML, and CSS, running web servers and writing RESTFUL apis using Node.js/Express, and integrating both relational and non-relational databases using MongoDB, and PostgreSQL. Beyond this full stack foundation, I have worked intensively and continue to build web applications with MVC frameworks - specifically with React.</p>
-        <p>We're looking for a developer experienced with React Native to join our team in New York City. You’ll work with our clients to build great products that delight users while using weekly investment time to improve ourselves, our company, and our community.</p>
+        <p>I'm looking to join a high quality team of designers and developers to apply my skills, continue learning, and begin meaningful relationships with clients to provide professional-grade digital products.</p>
+        <p>Thoughtbot seems like a wonderful place to continue my career as a developer.</p>
         <h3>What I can offer</h3>
-        <p>Details about what I can offer</p>
+        <p>As a recent graduate of Thinkful's full time Engineering Immersion program, I have acquired working experience building front end web clients with JavaScript, HTML, and CSS. I also have experience running web servers and writing RESTFUL APIs on the back end using Node.js/Express, and integrating both relational and non-relational databases using MongoDB, and PostgreSQL respectively. Beyond this full stack foundation, I have worked intensively with and continue to build web applications using MVC frameworks such as React.</p>
       </div>
-      <h3>About me</h3>
+      <h3>On a more personal note</h3>
       <p>Some stuff about me</p>
       <p>A concluding statement about me :)</p>
       <PhotoGrid />
