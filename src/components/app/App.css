@@ -193,6 +193,10 @@ ul {
   position: relative;
 }
 
+.icon-item p {
+  font-size: 0.9rem;
+}
+
 /* footer styles */
 
 .app-footer {
