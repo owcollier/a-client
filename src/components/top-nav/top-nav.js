@@ -7,16 +7,16 @@ export function TopNav(props) {
       <nav className="app-nav">
         <ul>
           <li className="app-nav-item">
-            <a className="app-nav-link">Portfolio</a>
+            <a className="app-nav-link" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Portfolio</a>
           </li>
           <li className="app-nav-item">
-            <a className="app-nav-link">LinkedIn</a>
+            <a className="app-nav-link" href="https://www.linkedin.com/in/osipwadecollier/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </li>
           <li className="app-nav-item">
-            <a className="app-nav-link">GitHub</a>
+            <a className="app-nav-link" href="https://github.com/owcollier" target="_blank" rel="noopener noreferrer">GitHub</a>
           </li>
           <li className="app-nav-item">
-            <a className="app-nav-link app-nav-contact-me">Contact me</a>
+            <a className="app-nav-link app-nav-contact-me" href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">Contact me</a>
           </li>
         </ul>
       </nav>
