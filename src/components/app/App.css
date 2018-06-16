@@ -246,6 +246,22 @@ ul {
 
 }
 
+@media screen and (max-width: 1300px) {
+
+  .footer-nav-groups {
+      flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width: 1300px) and (min-width: 715px) {
+
+  .footer-nav-group {
+      flex-basis: calc(33% - 3rem);
+  }
+
+}
+
 @media screen and (min-width: 890px) {
 
   .app-nav-logo {
@@ -264,6 +280,14 @@ ul {
 
   .single-column-layout {
     padding: 0 3rem;
+  }
+
+}
+
+@media screen and (max-width: 715px) and (min-width: 480px) {
+
+  .footer-nav-group {
+    flex-basis: calc(50% - 3rem);
   }
 
 }
@@ -298,6 +322,16 @@ ul {
 
   .single-column-layout {
     padding: 0 0.75rem;
+  }
+
+  .footer-nav-groups {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-nav-group {
+    margin-right: 0;
   }
 
 }
