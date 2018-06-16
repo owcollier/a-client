@@ -13,14 +13,14 @@ body {
   font-family: europa, sans-serif;
   -webkit-font-kerning: normal;
   font-kerning: normal;
-  font-size: 0.8em;
+  font-size: 0.7em;
 
   -webkit-font-smoothing: antialiased;
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   font-variant-numeric: proportional-nums;
 
-  line-height: 1.3;
+  line-height: 1.8;
   min-height: 100vh;
   min-width: 320px;
 }
@@ -243,6 +243,7 @@ ul {
   .icon-item p {
     font-size: 1em;
   }
+
 }
 
 @media screen and (min-width: 890px) {
@@ -255,6 +256,14 @@ ul {
 
   .app-footer {
     padding: 4.5rem 6rem;
+  }
+
+}
+
+@media screen and (max-width: 726px) {
+
+  .single-column-layout {
+    padding: 0 3rem;
   }
 
 }
@@ -282,6 +291,15 @@ ul {
   .icon-item:last-child {
     padding-bottom: 0;
   }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .single-column-layout {
+    padding: 0 0.75rem;
+  }
+
 }
 
 @media screen and (min-width: 480px) {
