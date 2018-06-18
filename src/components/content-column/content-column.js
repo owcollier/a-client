@@ -10,7 +10,8 @@ export function ContentColumn(props) {
       <h1 className="title-section">Full Stack Web Developer in New York</h1>
       <div className="content-show-description">
         <p>Hi thoughtbot! My name is Wade Collier and I'm looking for an opportunity to apply my skills, continue learning, and contribute in a meaningful way to clients, my community, and a company I can believe in.</p>
-        <p>Thoughtbot seems like a wonderful place to continue my career as a developer. I'm impressed by the work you've done - the 3d martial arts visualization app is particularly cool (I love implementing WebGL and 3d animation in HTML5 Canvas) - and am further impressed with the company's mission, benefits, and focus on personal development every week.</p>
+        <p>Thoughtbot seems like a wonderful place to continue my career as a developer. Not only am I impressed by the work you've done (the 3d visualization implented in <a>Martial Codex</a> is particularly cool and I'd like to mention that I love developing with WebGL running via the HTML5 Canvas API), I'm inspired by the presentation of thoughtbot's internal practices and project strategy.</p>
+        <p> I've already learned a number of useful practices by reading through your playbook – who knew I could improve my git commits by casually paging through your website? As a developer looking for a team and role that will help me improve in my development practices, the quality of documentation about thoughtbot speaks volumes. The company's mission, benefits, and focus on personal development. </p>
         <h3>What I can offer</h3>
         <p>As a recent graduate of Thinkful's full time Engineering Immersion program, I've acquired working experience building front end web clients with JavaScript, HTML, CSS, and React/Redux. I also have experience running web servers and writing RESTFUL APIs on the back end using Node.js/Express, and integrating both relational and non-relational databases using MongoDB, and PostgreSQL respectively.</p>
         <h3>But Wade, we're looking for React Native developers!</h3>
@@ -25,19 +26,19 @@ export function ContentColumn(props) {
       <ul className="icon-list">
         <li className="icon-item">
           <h4 className="title-secondary">An item</h4>
-          <p>This will be a paragraph with text that says something and communicates an idea. It will be nice little chunk of text so I'm gonna pad out this filler text real nice. In a pitched battle, who do you think would win? The Dwarves of Erebor or Saruman's Orcs? Let's assume the men of Dale would assist our Dwarf friends.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
         <li className="icon-item">
           <h4 className="title-secondary">Another item</h4>
-          <p>This will be a paragraph with text that says something and communicates an idea. It will be nice little chunk of text so I'm gonna pad out this filler text real nice. In a pitched battle, who do you think would win? The Dwarves of Erebor or Saruman's Orcs? Let's assume the men of Dale would assist our Dwarf friends.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
         <li className="icon-item">
           <h4 className="title-secondary">Another item</h4>
-          <p>This will be a paragraph with text that says something and communicates an idea. It will be nice little chunk of text so I'm gonna pad out this filler text real nice. In a pitched battle, who do you think would win? The Dwarves of Erebor or Saruman's Orcs? Let's assume the men of Dale would assist our Dwarf friends.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
         <li className="icon-item">
           <h4 className="title-secondary">Another item</h4>
-          <p>This will be a paragraph with text that says something and communicates an idea. It will be nice little chunk of text so I'm gonna pad out this filler text real nice. In a pitched battle, who do you think would win? The Dwarves of Erebor or Saruman's Orcs? Let's assume the men of Dale would assist our Dwarf friends.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
       </ul>
       <p></p>
