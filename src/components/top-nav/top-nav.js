@@ -3,6 +3,9 @@ import React from 'react';
 export function TopNav(props) {
   return (
     <header className="app-header">
+      <svg className="app-nav-svg">
+        <circle className="app-nav-svg-circ" cx="19" cy="19" r="19"/>
+      </svg>
       <a className="app-nav-logo"><span className="app-nav-bubble">&nbsp;Hi&nbsp;</span> thoughtbot! My name is Wade Collier</a>
       <nav className="app-nav">
         <ul>

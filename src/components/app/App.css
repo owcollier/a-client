@@ -112,13 +112,22 @@ ul {
   transition: color 150ms ease-in-out;
 }
 
-.app-nav-bubble {
-  font-size: 1.2em;
-  color: rgba(237,62,68,0.8);
+.app-nav-svg {
+  position: absolute;
+  left: 2.95rem;
+  top: 1.3rem;
+  width: 3rem;
+  height: 3rem;
+  
+  z-index: -1;
+}
 
-  background: #fff;
-  border-radius: 100%;
-  border: 1px solid #fff;
+.app-nav-svg-circ {
+  fill: #fff;
+}
+
+.app-nav-bubble {
+  color: rgba(237,62,68,0.8);
 }
 
 .app-nav {
