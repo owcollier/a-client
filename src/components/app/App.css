@@ -152,10 +152,10 @@ ul {
 /* hero styles */
 
 .app-hero {
-  padding-top: 18rem;
-  padding-bottom: 12rem;
-  background: linear-gradient(rgba(237,62,68,0.8), rgba(237,62,68,0.8));
-  background-position: center;
+  padding-top: 14rem;
+  padding-bottom: 16rem;
+  background-image: linear-gradient(rgba(237,62,68,0.8), rgba(237,62,68,0.8)),url(../../assets/heroResize.jpg);
+  background-position: 0% 35%;
   background-size: cover;
   color: #fff;
 }
