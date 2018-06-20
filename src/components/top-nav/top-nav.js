@@ -10,9 +10,13 @@ export class TopNav extends React.Component {
             matches ? (
               <div>
                 <a className="app-nav-mobile-logo"></a>
-                <a className="app-nav-mobile-icon"></a>
-                <a className="app-nav-mobile-contact-me" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer"></a>
-                <a></a>
+                <a className="app-nav-mobile-icon">
+                  <span>&nbsp;Hi!&nbsp;</span>
+                  <svg className="app-nav-mobile-svg">
+                    <circle className="app-nav-mobile-svg-circ" cx="22" cy="22" r="22"/>
+                  </svg>
+                </a>
+                <a className="app-nav-mobile-contact-me" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
               </div>
             ) : (
               <div>
