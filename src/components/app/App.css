@@ -126,6 +126,33 @@ ul {
   fill: #fff;
 }
 
+.app-nav-mobile-icon {
+  position: absolute;
+  top: 24px;
+  left: 1.5rem;
+  border-bottom: 0;
+  float: right;
+  font-size: 1.8em;
+}
+
+.app-nav-mobile-logo {
+  display: inline-block;
+  text-align: center;
+}
+
+.app-nav-mobile-svg {
+  height: 50px;
+  width: 50px;
+}
+
+.app-nav-mobile-svg-circ {
+  fill: #fff;
+
+  height: 50px;
+  width: 50px;
+
+}
+
 .app-nav-bubble {
   color: rgba(237,62,68,0.8);
 }
