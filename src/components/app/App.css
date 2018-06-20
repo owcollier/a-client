@@ -186,6 +186,25 @@ ul {
   border: none;
 }
 
+.app-nav-mobile-span-container {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+.app-nav-mobile-span {
+  position: absolute;
+
+  left: 0.1rem;
+
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.app-nav-mobile-span-dark-bg {
+  color: rgba(237,62,68,0.8);
+}
+
 .app-nav-mobile-svg {
   height: 50px;
   width: 50px;
