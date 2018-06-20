@@ -195,9 +195,10 @@ ul {
 .app-nav-mobile-span {
   position: absolute;
 
-  left: 0.1rem;
+  top: 0;
+  left: -0.1rem;
 
-  font-size: 2em;
+  font-size: 2.3em;
   font-weight: 600;
 }
 

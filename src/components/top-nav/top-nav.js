@@ -2,23 +2,44 @@ import React from 'react';
 import Media from "react-media";
 
 export class TopNav extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isModalVisible: false
+    }
+  }
+
   render() {
+
+    const isModalVisible = this.state.isModalVisible;
+    let mobileNav;
+
+    if (isModalVisible) {
+      mobileNav = <div></div>
+    } else {
+      mobileNav =
+      <div>
+        <a className="app-nav-mobile-logo">
+        <div className="app-nav-mobile-span-container">
+          <span className="app-nav-mobile-span app-nav-mobile-span-dark-bg">&nbsp;Hi!&nbsp;</span>
+        </div>
+        <svg className="app-nav-mobile-svg">
+          <circle className="app-nav-mobile-svg-circ" cx="25" cy="25" r="25"/>
+        </svg>
+        </a>
+        <a className="app-nav-mobile-icon app-nav-mobile-icon-dark-bg">☰</a>
+        <a className="app-nav-mobile-contact-me app-nav-mobile-contact-me-dark-bg" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
+      </div>
+    }
+
     return (
       <header className="app-header">
         <Media query="(max-width: 890px)">
           {matches =>
             matches ? (
               <div>
-                <a className="app-nav-mobile-logo">
-                  <div className="app-nav-mobile-span-container">
-                    <span className="app-nav-mobile-span app-nav-mobile-span-dark-bg">&nbsp;Hi!&nbsp;</span>
-                  </div>
-                  <svg className="app-nav-mobile-svg">
-                    <circle className="app-nav-mobile-svg-circ" cx="25" cy="25" r="25"/>
-                  </svg>
-                </a>
-                <a className="app-nav-mobile-icon app-nav-mobile-icon-dark-bg">☰</a>
-                <a className="app-nav-mobile-contact-me app-nav-mobile-contact-me-dark-bg" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
+                {mobileNav}
               </div>
             ) : (
               <div>
