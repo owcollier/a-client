@@ -39,6 +39,10 @@ a {
   transition: color 150ms ease-in-out, border-color 150ms ease-in-out;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 h1 {
   font-family: europa, sans-serif;
   font-size: 3em;

@@ -5,9 +5,19 @@ export class TopNav extends React.Component {
 
   constructor(props) {
     super(props);
+
     this.state = {
       isModalVisible: false
     }
+
+    this.toggleModal = this.toggleModal.bind(this);
+
+  }
+
+  toggleModal() {
+    this.setState((prevState) => ({
+      isModalVisible: !prevState.isModalVisible
+    }));
   }
 
   render() {
@@ -28,7 +38,7 @@ export class TopNav extends React.Component {
           <circle className="app-nav-mobile-svg-circ" cx="25" cy="25" r="25"/>
         </svg>
         </a>
-        <a className="app-nav-mobile-icon app-nav-mobile-icon-dark-bg">☰</a>
+        <a className="app-nav-mobile-icon app-nav-mobile-icon-dark-bg" onClick={this.toggleModal}>☰</a>
         <a className="app-nav-mobile-contact-me app-nav-mobile-contact-me-dark-bg" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
       </div>
     }
