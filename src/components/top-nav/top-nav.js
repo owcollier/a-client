@@ -8,7 +8,12 @@ export class TopNav extends React.Component {
         <Media query="(max-width: 890px)">
           {matches =>
             matches ? (
-              <p>Document is less than 890px wide.</p>
+              <div>
+                <a className="app-nav-mobile-logo"></a>
+                <a className="app-nav-mobile-icon"></a>
+                <a className="app-nav-mobile-contact-me" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer"></a>
+                <a></a>
+              </div>
             ) : (
               <div>
                 <svg className="app-nav-svg">
@@ -27,7 +32,7 @@ export class TopNav extends React.Component {
                       <a className="app-nav-link" href="https://github.com/owcollier" target="_blank" rel="noopener noreferrer">GitHub</a>
                     </li>
                     <li className="app-nav-item">
-                      <a className="app-nav-link app-nav-contact-me" href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">Contact me</a>
+                      <a className="app-nav-link app-nav-contact-me" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
                     </li>
                   </ul>
                 </nav>

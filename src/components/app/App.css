@@ -280,6 +280,16 @@ ul {
 
 }
 
+@media screen and (max-width: 890px) {
+
+  .app-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center; 
+  }
+
+}
+
 @media screen and (min-width: 890px) {
 
   .app-nav-logo {
