@@ -385,6 +385,10 @@ ul {
   -webkit-font-smoothing: antialiased;
 }
 
+.single-column-layout .outro-bit {
+  font-size: 1rem;
+}
+
 /* footer styles */
 
 .app-footer {

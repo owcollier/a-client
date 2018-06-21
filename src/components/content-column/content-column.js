@@ -55,10 +55,10 @@ export function ContentColumn(props) {
           <p>I want to grow as both a developer and an individual, and I'm seeking a solid organization to do that with. The most important goal for me is to find a position in a supportive, growth-oriented environment that will allow me to develop great products – a combination that amounts to my well-being as both a developer and a human being. From what I can see, thoughtbot ticks the boxes.</p>
         </li>
       </ul>
-      <p>My impression is that thoughtbot produces high quality products, is well organized internally, and sports a growth-oriented work culture that accomodates its team members' needs as people. Of course, I'd love to have an opportunity to learn more about thoughtbot firsthand! So please, don't hesitate to reach out!</p>
       <p className="big-contact-me">
         <a className="primary-button" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
       </p>
+      <p className="outro-bit">My impression is that thoughtbot produces high quality products, is well organized internally, and sports a growth-oriented work culture that accomodates its team members' needs as people. Of course, I'd love to have an opportunity to learn more about thoughtbot firsthand! So please, don't hesitate to reach out!</p>
     </section>
   )
 }
