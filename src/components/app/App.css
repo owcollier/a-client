@@ -290,6 +290,56 @@ ul {
   font-size: 0.9rem;
 }
 
+.icon-item div {
+  position: absolute;
+  top: -5px;
+  left: 8px;
+  max-width: 31px;
+
+  font-size: 1.5em;
+}
+
+.title-secondary {
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.icon-item.item-green .title-secondary {
+  color: #18b290;
+}
+
+.icon-item.item-green div {
+  color: rgb(122, 201, 67);
+}
+
+.icon-item.item-blue .title-secondary {
+  color: #177be3;
+}
+
+.icon-item.item-blue div {
+  color: rgb(63, 169, 245);
+}
+
+.icon-item.item-yellow .title-secondary {
+  color: #ff931e;
+}
+
+.icon-item.item-yellow div {
+  color: rgb(255, 201, 31);
+}
+
+.icon-item.item-pink .title-secondary {
+  color: #ed1e79;
+}
+
+.icon-item.item-pink div {
+  color: rgb(237, 30, 121);
+}
+
 /* footer styles */
 
 .app-footer {

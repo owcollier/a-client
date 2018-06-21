@@ -1,6 +1,8 @@
 import React from 'react';
 import PhotoGrid from '../photo-grid/photo-grid';
 
+import FontAwesome from 'react-fontawesome';
+
 export function ContentColumn(props) {
   return (
     <section className="single-column-layout" id="meat">
@@ -24,19 +26,31 @@ export function ContentColumn(props) {
       <h3>My Benefits</h3>
       <p>A quick statement</p>
       <ul className="icon-list">
-        <li className="icon-item">
+        <li className="icon-item item-green">
+          <div>
+            <FontAwesome name='seedling' />
+          </div>
           <h4 className="title-secondary">An item</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
-        <li className="icon-item">
+        <li className="icon-item item-blue">
+          <div>
+            <FontAwesome name='book' />
+          </div>
           <h4 className="title-secondary">Another item</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
-        <li className="icon-item">
+        <li className="icon-item item-yellow">
+          <div>
+            <FontAwesome name='handshake' />
+          </div>
           <h4 className="title-secondary">Another item</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
-        <li className="icon-item">
+        <li className="icon-item item-pink">
+          <div>
+            <FontAwesome name='heart' />
+          </div>
           <h4 className="title-secondary">Another item</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </li>
