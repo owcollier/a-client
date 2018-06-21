@@ -158,6 +158,10 @@ ul {
   border-width: 0;
 }
 
+.app-nav-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .app-nav-contact-me {
   background: #fff;
   color: #ed3e44;
@@ -165,6 +169,10 @@ ul {
   border-radius: 2px;
   font-weight: 700;
   padding: 15px;
+}
+
+.app-nav-contact-me:hover {
+  color: #ed3e44;;
 }
 
 /* mobile app nav styles */
