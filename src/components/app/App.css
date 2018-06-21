@@ -434,6 +434,10 @@ ul {
   margin-right: 3rem;
 }
 
+.footer-nav-list a:hover {
+  color: #ed3e44;
+}
+
 .footer-nav-group-title {
   color: #fff;
   font-size: 1.2rem;

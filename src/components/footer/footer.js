@@ -32,7 +32,7 @@ export function Footer(props) {
         </ul>
       </div>
       <div className="footer-bottom">
-        <strong>© 2018 Wade Collier</strong>
+        <strong>Made with &hearts; in 2018 by Wade Collier</strong>
         <p>
         This site was created with React.js
         <br></br>
