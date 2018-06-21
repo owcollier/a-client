@@ -340,6 +340,51 @@ ul {
   color: rgb(237, 30, 121);
 }
 
+.icon-list::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.big-contact-me {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.primary-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background-color: #ed3e44;
+  border: 1px solid #da393f;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.9;
+  min-height: 3rem;
+  min-width: 9rem;
+
+  padding: 0.375rem 1.5rem;
+
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 150ms ease-in-out, box-shadow 300ms ease-in-out;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  vertical-align: middle;
+
+  -webkit-font-smoothing: antialiased;
+}
+
 /* footer styles */
 
 .app-footer {
@@ -479,6 +524,13 @@ ul {
 
   .single-column-layout {
     padding: 0 0.75rem;
+  }
+
+  .primary-button {
+    font-size: 1rem;
+    min-height: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    width: 100%;
   }
 
   .footer-nav-groups {
