@@ -38,27 +38,27 @@ export function ContentColumn(props) {
             <FontAwesome name='book' />
           </div>
           <h4 className="title-secondary">Always Learning</h4>
-          <p>My interest in development is rooted in an almost compulsive need to continue learning new ways to work with and build web technologies/software. Thoughtbot's willingness to chip in on conference attendance and job-related training greatly attracts me as an interested developer candidate. I believe that a developer's ability to stay learning and flexible with new technologies allows that developer to greater serve their cause, and thoughtbot's position seems to reflect that.</p>
+          <p>My interest in development is rooted in an almost compulsive need to continue learning new ways to work with and build web technologies/software. I believe that a developer's ability to stay learning and flexible with new technologies allows them to better serve their cause, and thoughtbot's willingness to chip in on conference attendance and job-related training for team members seems to reflect my values.</p>
         </li>
         <li className="icon-item item-yellow">
           <div>
             <FontAwesome name='handshake' />
           </div>
           <h4 className="title-secondary">Looking for a team</h4>
-          <p>As I continue my career in web development, I desire an ecosystem of experienced developers and designers to learn from and collaborate with. My most memorable accomplishments as a developer to date have involved extensive collaboration and benefitting from the experience of my peers. Thoughtbot seems very well organized in both its internal practices and product output, and I believe that I would benefit from thoughtbot's quality while contributing to its culture.</p>
+          <p>As I continue my career in web development, I seek out a healthy ecosystem of experienced developers and designers to learn from and collaborate with. My most memorable accomplishments as a developer to date have involved extensive collaboration and drawing on the experience of my peers. Thoughtbot seems very well organized in both its internal practices and project management, and I believe that I would benefit from thoughtbot's quality while contributing to its culture.</p>
         </li>
         <li className="icon-item item-pink">
           <div>
             <FontAwesome name='heart' />
           </div>
           <h4 className="title-secondary">Well-being in mind</h4>
-          <p>I want to grow as both a developer and an individual, and I'm seeking a solid organization to do that with. The most important goal for me is to find a position in a supportive, growth-oriented environment that will allow me to develop great products – a combination that amounts to my well-being as both a developer and a human being. From what I can see, thoughtbot ticks the boxes.</p>
+          <p>I want to grow as both a developer and an individual, and I'm seeking a solid organization to do that with. The most important goal for me is to find a position in a supportive, growth-oriented environment that will allow me to develop great products – conditions that I believe will foster my my well-being as both a developer and a human being. From what I can see, thoughtbot ticks the boxes.</p>
         </li>
       </ul>
       <p className="big-contact-me">
         <a className="primary-button" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
       </p>
-      <p className="outro-bit">My impression is that thoughtbot produces high quality products, is well organized internally, and sports a growth-oriented work culture that accomodates its team members' needs as people. Of course, I'd love to have an opportunity to learn more about thoughtbot firsthand! So please, don't hesitate to reach out!</p>
+      <p className="outro-bit">My impression is that thoughtbot produces high quality products, is well organized internally, and sports a growth-oriented work culture that accomodates its team members' needs as people. Of course, I'd love to have an opportunity to learn more about thoughtbot firsthand! So please thoughtbot, don't hesitate to reach out!</p>
     </section>
   )
 }
