@@ -58,7 +58,7 @@ export function ContentColumn(props) {
       <p className="big-contact-me">
         <a className="primary-button" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Contact me</a>
       </p>
-      <p className="outro-bit">My impression is that thoughtbot produces high quality products, is sound in its product development principles, and sports a growth-oriented work culture that accomodates its team members' needs as people. Of course, I'd love to have an opportunity to learn more about thoughtbot firsthand! So please thoughtbot, don't hesitate to reach out if I seem like I might be a good fit!</p>
+      <p className="outro-bit">My impression is that thoughtbot produces high quality products, is sound in its product development principles, and promotes a growth-oriented work culture that accomodates its team members' needs as people. Of course, I'd love to have an opportunity to learn more about thoughtbot firsthand! So please thoughtbot, don't hesitate to reach out if I seem like I might be a good fit!</p>
     </section>
   )
 }
