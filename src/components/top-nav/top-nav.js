@@ -41,13 +41,13 @@ export class TopNav extends React.Component {
         <nav className="app-nav-mobile-menu">
           <ul>
             <li className="app-nav-mobile-menu-item">
-              <a className="app-nav-mobile-menu-link">Portfolio</a>
+              <a className="app-nav-mobile-menu-link" href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Portfolio</a>
             </li>
             <li className="app-nav-mobile-menu-item">
-              <a className="app-nav-mobile-menu-link">LinkedIn</a>
+              <a className="app-nav-mobile-menu-link" href="https://www.linkedin.com/in/osipwadecollier/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </li>
             <li className="app-nav-mobile-menu-item">
-              <a className="app-nav-mobile-menu-link">GitHub</a>
+              <a className="app-nav-mobile-menu-link" href="https://github.com/owcollier" target="_blank" rel="noopener noreferrer">GitHub</a>
             </li>
           </ul>
         </nav>
