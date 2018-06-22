@@ -12,7 +12,7 @@ export function ContentColumn(props) {
       <h1 className="title-section">Full Stack Web Developer in New York</h1>
       <div className="content-show-description">
         <p>Hi thoughtbot! My name is Wade Collier and I'm looking for an opportunity to apply my skills, continue learning, and contribute in a meaningful way to clients, my community, and a company I can believe in. You may have already figured it out, but I'm interested in doing so with you!</p>
-        <p>Thoughtbot seems like a wonderful place to continue my career as a developer. Not only am I impressed by the work you've done (the 3d visualization implented in <a>Martial Codex</a> is particularly cool – I love playing around with WebGL and related animation libraries via the HTML5 Canvas API), I'm inspired by the presentation of thoughtbot's internal practices, project strategy, and work culture.</p>
+        <p>Thoughtbot seems like a wonderful place to continue my career as a developer. Firstly, I'm impressed by the work coming out of thoughtbot – the 3d visualization implented in <a>Martial Codex</a> is particularly cool and it's awesome to read about the process of creating your own engine for the product. I love playing around with WebGL and related animation libraries via the HTML5 Canvas API. Furthermore, I'm inspired by the presentation of thoughtbot's internal practices, project strategy, and work culture.</p>
         <p> I've already learned a number of useful practices by reading through your playbook (who knew I could improve the format and clarity of my git commits by casually paging through your website?). As a developer looking for a team and role that will help me improve in my development practices, the quality of documentation about thoughtbot speaks volumes. The company's mission, benefits, and focus on personal development send me the message that thoughtbot is an organization worth going out on a limb for. </p>
         <h3>What I can offer</h3>
         <p>As a recent graduate of Thinkful's full time Engineering Immersion program, I've acquired working experience building front end web clients with JavaScript, HTML, CSS, and React/Redux. I also have experience running web servers and writing RESTFUL APIs on the back end using Node.js/Express, and integrating both relational and non-relational databases using MongoDB, and PostgreSQL respectively.</p>
@@ -24,7 +24,7 @@ export function ContentColumn(props) {
       <p>A concluding statement about me :)</p> */}
       <PhotoGrid />
       <h3>My Benefits</h3>
-      <p>So I'm totally interested in a developer position with thoughtbot, but I know that it's as much about you as it is about me. I believe I can provide benefits as an asset to the thoughtbot team, but I'd also like to emphasize my interest in the right fit and honestly represent myself as a person.</p>
+      <p>So I'm totally interested in a developer position with thoughtbot, but I know that it's as much about you as it is about me. I believe I can provide benefits as an asset to the thoughtbot team, but I'd also like to emphasize my interest in the right fit. Here's why I think thoughtbot might be a great fit:</p>
       <ul className="icon-list">
         <li className="icon-item item-green">
           <div>
@@ -52,7 +52,7 @@ export function ContentColumn(props) {
             <FontAwesome name='heart' />
           </div>
           <h4 className="title-secondary">Well-being in mind</h4>
-          <p>I want to grow as both a developer and an individual, and I'm seeking a solid organization to do that with. The most important goal for me is to find a position in a supportive, growth-oriented environment that will allow me to develop great products – conditions that I believe will foster my my well-being as both a developer and a human being. From what I can see, thoughtbot ticks the boxes.</p>
+          <p>I want to grow as both a developer and an individual, and I'm seeking a solid organization to do that with. The most important goal for me is to find a position in a supportive, growth-oriented environment that will allow me to develop great products – conditions that I believe will foster my well-being as both a developer and a human being. From what I can see, thoughtbot ticks the boxes.</p>
         </li>
       </ul>
       <p className="big-contact-me">
