@@ -666,6 +666,10 @@ ul {
     margin-right: 0;
   }
 
+  .app-nav-mobile-span {
+    font-size: 1.8rem;
+  }
+
 }
 
 @media screen and (min-width: 480px) {
