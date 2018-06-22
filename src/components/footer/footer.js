@@ -6,27 +6,21 @@ export function Footer(props) {
       <div className="footer-content">
         <ul className="footer-nav-groups">
           <li className="footer-nav-group">
-            <h3 className="footer-nav-group-title">Footer stuff</h3>
+            <h3 className="footer-nav-group-title">Check out my portfolio</h3>
             <ul className="footer-nav-list">
-              <li><a>Something</a></li>
-              <li><a>Something</a></li>
-              <li><a>Something</a></li>
+              <li><a href="http://wadecollier.com/" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
             </ul>
           </li>
           <li className="footer-nav-group">
-            <h3 className="footer-nav-group-title">Footer stuff</h3>
+            <h3 className="footer-nav-group-title">See my LinkedIn profile</h3>
             <ul className="footer-nav-list">
-              <li><a>Something</a></li>
-              <li><a>Something</a></li>
-              <li><a>Something</a></li>
+              <li><a href="https://www.linkedin.com/in/osipwadecollier/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             </ul>
           </li>
           <li className="footer-nav-group">
-            <h3 className="footer-nav-group-title">Footer stuff</h3>
+            <h3 className="footer-nav-group-title">Look at my code</h3>
             <ul className="footer-nav-list">
-              <li><a>Something</a></li>
-              <li><a>Something</a></li>
-              <li><a>Something</a></li>
+              <li><a href="https://github.com/owcollier" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             </ul>
           </li>
         </ul>
